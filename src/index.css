@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* ── Global ── */
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: 'Inter', ui-sans-serif, system-ui, sans-serif;
+}
+
+/* ── Custom Scrollbar ── */
+::-webkit-scrollbar        { width: 6px; height: 6px; }
+::-webkit-scrollbar-track  { background: transparent; }
+::-webkit-scrollbar-thumb  { background: #cbd5e1; border-radius: 999px; }
+::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+.dark ::-webkit-scrollbar-thumb { background: #334155; }
+.dark ::-webkit-scrollbar-thumb:hover { background: #475569; }
+
+.custom-time-panel .p-timepicker {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-around !important;
+  align-items: center !important;
+  gap: 16px !important;
+  padding: 12px !important;
+  background-color: white;
+}
+
+/* Each column (hour/min/sec/ampm) */
+.custom-time-panel .p-timepicker > div {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+}
+
+/* Buttons */
+.custom-time-panel .p-timepicker button {
+  border-radius: 8px !important;
+  transition: 0.2s !important;
+}
+
+.custom-time-panel .p-timepicker button:hover {
+  background: #dcfce7 !important; /* emerald-100 */
+}
+
+/* Selected item */
+.custom-time-panel .p-highlight {
+  background: #10b981 !important; /* emerald-500 */
+  color: white !important;
+  border-radius: 6px !important;
+}
+
+.dark .p-editor-container {
+  background: #0f172a;
+  border-color: #334155;
+}
+
+.dark .p-editor-toolbar {
+  background: #1e293b;
+  border-color: #334155;
+}
+
+.dark .p-editor-content {
+  background: #0f172a;
+}
+
+.dark .ql-editor {
+  background: #0f172a;
+  color: #e2e8f0;
+}
+
+.dark .ql-stroke {
+  stroke: #e2e8f0 !important;
+}
+
+.dark .ql-fill {
+  fill: #e2e8f0 !important;
+}
+
+.dark .ql-picker-label {
+  color: #e2e8f0 !important;
+}
+
+.dark .ql-picker-options {
+  background: #1e293b !important;
+  color: #e2e8f0 !important;
+}
