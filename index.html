@@ -1,0 +1,443 @@
+<html>
+
+<head>
+  <title>Local Business Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./styles/style.css" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div><a href="#home" id="heading"><img src="./assets/logo.png" height="70px" alt="logo"></a></div>
+      <ul id="links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#testimonial">Testimonial</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button id="link-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="size-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+      </button>
+    </nav>
+  </header>
+  <main>
+    <section id="home">
+      <div class="container">
+        <div class="hero-container">
+          <div class="hero-content fade-up">
+            <p class="hero-label"> Artistic Coffee & Fresh Bakes</p>
+
+            <h1 class="hero-title">
+              Your Perfect Coffee
+              <span>Starts Here</span>
+            </h1>
+
+            <p class="hero-desc">
+              Welcome to Brew Haven where every cup is crafted with passion.
+              From bold espressos to creamy lattes, we bring you the finest
+              artisanal coffee experience in town.
+            </p>
+            <div class="hero-cta">
+              <a href="#menu" class="cta-btn cta-primary">Explore Menu</a>
+              <a href="#gallery" class="cta-btn cta-secondary">View Gallery</a>
+            </div>
+            <div class="hero-stats">
+              <div>
+                <h3>50+</h3>
+                <p>Coffee Varieties</p>
+              </div>
+
+              <div>
+                <h3>1000+</h3>
+                <p>Happy Customers</p>
+              </div>
+
+              <div>
+                <h3>4.9★</h3>
+                <p>Average Rating</p>
+              </div>
+            </div>
+          </div>
+          <div class="img-home-con fade-up">
+            <img class="hero-img" src="./assets/Coffee-header.png" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about-section">
+      <div class="container">
+        <div class="about-cont">
+          <div class="about-img fade-up">
+            <img src="./assets/Ambiance.jpg" alt="Cafe interior">
+          </div>
+
+          <div class="about-content fade-up">
+            <div class="about-badge">
+              <h2 class="section-heading ">About Us</h2>
+              <p class="section-subheading">Artisanal coffees crafted with obsession</p>
+            </div>
+            <p class="about-description">
+              Welcome to Brew Haven, a sanctuary built entirely for the love of exceptional
+              coffee. We bypass the distractions of complex kitchen menus to focus entirely
+              on the art of the brew. By sourcing elite, single-origin beans and mastering precise
+              extraction techniques, our baristas dedicate themselves to celebrating the true,
+              unadulterated flavor of coffee. Whether you need a morning jolt or a slow afternoon pour-over,
+              we are here to elevate your daily ritual.
+            </p>
+            <blockquote class="about-quote">
+              "We don't do everything. We just do coffee,
+              and we do it flawlessly."
+            </blockquote>
+          </div>
+        </div>
+
+        <div class="why-choose-us-area">
+          <div class="wcu-head fade-up">
+            <h3 class="wcu-heading">Why Choose Us?</h3>
+            <div class="wcu-line"></div>
+          </div>
+
+          <div class="about-features">
+            <div class="fade-up">
+              <div class="feature-card">
+                <h4>Single-Origin</h4>
+                <p>Ethically sourced from prime regions.</p>
+              </div>
+            </div>
+
+            <div class="fade-up">
+              <div class="feature-card">
+                <h4>Precision Roasting</h4>
+                <p>Profiled to highlight distinct notes.</p>
+              </div>
+            </div>
+
+            <div class="fade-up">
+              <div class="feature-card">
+                <h4>Expert Baristas</h4>
+                <p>Mastering extraction and latte art.</p>
+              </div>
+            </div>
+
+            <div class="fade-up">
+              <div class="feature-card">
+                <h4>Pure Focus</h4>
+                <p>No food gimmicks, just elite coffee.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="menu" class="menu-section">
+      <div class="container">
+        <div class="section-head fade-up">
+          <h2 class="section-heading">Our Menu</h2>
+          <p class="section-subheading">Handcrafted drinks & treats made fresh daily</p>
+        </div>
+        <div id="menu-main-cont"></div>
+      </div>
+    </section>
+
+    <section id="gallery" class="gallery-section">
+      <div class="container">
+        <div class="section-head fade-up">
+          <h2 class="section-heading">Our Gallery</h2>
+          <p class="section-subheading">A glimpse into the Brew Haven experience</p>
+        </div>
+        <div id="gal-grid" class="gal-grid fade-up">
+          <img class="grid-imgs " src="./assets/gettyimages-1467739359-612x612.jpg" alt="" data-index="0">
+          <img class="grid-imgs " src="./assets/a-black-and-white-sign-that-says-cafe-photo.jpg" alt="" data-index="1">
+          <img class="grid-imgs " src="./assets/Ambiance.jpg" alt="" data-index="2">
+          <img class="grid-imgs " src="./assets/cafe-interior-design.jpg" alt="" data-index="3">
+          <img class="grid-imgs " src="./assets/Coffee-food.jpg" alt="" data-index="4">
+          <img class="grid-imgs " src="./assets/coffee_shop.jpg" alt="" data-index="5">
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery-slider-section">
+      <div class="container">
+
+        <div id="carousel-cont" class="carousel-container fade-up show-animate">
+          <div class="carousel" data-dots="true" data-preview="10" data-gap="2" data-autoplay="false" data-arrows="true"
+            data-slidesperview="2">
+            <div class="track">
+              <div class="slide">
+                <img src="./assets/black_coffee.jpg" alt="">
+              </div>
+              <div class="slide">
+                <img src="./assets/coffee_shop.jpg" alt="">
+              </div>
+              <div class="slide">
+                <img src="./assets/coffee1.jpg" alt="">
+              </div>
+              <div class="slide">
+                <img src="./assets/Ambiance.jpg" alt="">
+              </div>
+              <div class="slide">
+                <img src="./assets/a-black-and-white-sign-that-says-cafe-photo.jpg" alt="">
+              </div>
+              <div class="slide">
+                <img src="./assets/cafe-interior-design.jpg" alt="">
+              </div>
+              <div class="slide">
+                <img src="./assets/Coffee-food.jpg" alt="">
+              </div>
+              <div class="slide">
+                <img src="./assets/gettyimages-1467739359-612x612.jpg" alt="">
+              </div>
+            </div>
+
+            <div class="dots-container"></div>
+            <div class="arrows-container"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="faq-section">
+      <div class="container">
+        <div class="section-head fade-up">
+          <h2 class="section-heading">FAQ Section</h2>
+          <p class="section-subheading">Got questions? We've got answers</p>
+        </div>
+        <div class="faq-container fade-up" id="faq-container">
+          <div class="faq-item fade-up">
+            <button class="faq-question">
+              What is the difference between an espresso, a latte, and a cappuccino?
+              <span class="icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>An espresso is a concentrated shot of pure coffee. A latte has a high ratio of steamed milk to
+                espresso, while a cappuccino features equal parts espresso, steamed milk, and airy milk foam.</p>
+            </div>
+          </div>
+          <div class="faq-item fade-up">
+            <button class="faq-question">
+              Do you sell whole beans for home brewing?
+              <span class="icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Yes, we sell our freshly roasted coffee beans in-store. Ask your barista for grind-size
+                recommendations
+                depending on your home brewing equipment.</p>
+            </div>
+          </div>
+          <div class="faq-item fade-up">
+            <button class="faq-question">
+              Can I customize the sweetness of my coffee?
+              <span class="icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Absolutely. You can request half the amount of syrup, specify the number of pumps, or ask for
+                entirely sugar-free syrup alternatives.</p>
+            </div>
+          </div>
+          <div class="faq-item fade-up">
+            <button class="faq-question">
+              Where do your coffee beans come from?
+              <span class="icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>We source our specialty-grade Arabica coffee beans directly from ethical farms in regions like
+                Karnataka (India), Colombia, and Ethiopia.</p>
+            </div>
+          </div>
+          <div class="faq-item fade-up">
+            <button class="faq-question">
+              Can I order ahead for pickup?
+              <span class="icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Yes, we do! You can place your order through our website or app, and pick it up at your selected
+                time without the wait.</p>
+            </div>
+          </div>
+          <div class="faq-item fade-up">
+            <button class="faq-question">
+              Do you offer vegan or dairy-free options?
+              <span class="icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Absolutely! We offer a range of plant-based milk alternatives like soy, almond, and oat milk, along
+                with several vegan-friendly snacks and pastries.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonial" class="testimonial-section">
+      <div class="container">
+        <div class="section-head fade-up">
+          <h2 class="section-heading">Testimonials</h2>
+          <p class="section-subheading">Our Clients and their heart warming reviews</p>
+        </div>
+        <div class="carousel testimonial-carousel fade-up" data-preview="0" data-dots="true" data-autoplay="true"
+          data-arrows="true" data-slidesperview="2">
+          <div class="track" id="testimonial-container"></div>
+
+          <div class="dots-container"></div>
+          <div class="arrows-container"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <div class="section-head fade-up">
+          <h2 class="section-heading">Get In Touch</h2>
+          <p class="section-subheading">We'd love to hear from you</p>
+        </div>
+
+        <div class="contact-cont">
+          <div class="contact-info-hours">
+            <div class="contact-info-card fade-up">
+              <h3 class="contact-info-title">Contact Information</h3>
+              <div class="contact-info-item">
+                <div>
+                  <p class="contact-info-label">Phone</p>
+                  <p class="contact-info-value">(555) 123-4567</p>
+                </div>
+              </div>
+              <div class="contact-info-item">
+                <div>
+                  <p class="contact-info-label">Email</p>
+                  <p class="contact-info-value">hello@brewhaven.example</p>
+                </div>
+              </div>
+              <div class="contact-info-item">
+                <div>
+                  <p class="contact-info-label">Address</p>
+                  <p class="contact-info-value">123 Coffee Street, Brewville, CA 94123</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-hours-card fade-up">
+              <h3 class="contact-hours-title">Hours</h3>
+              <div class="contact-hours-row">
+                <span class="contact-hours-day">Monday - Friday</span>
+                <span class="contact-hours-time">6:00 AM - 8:00 PM</span>
+              </div>
+              <div class="contact-hours-row">
+                <span class="contact-hours-day">Saturday</span>
+                <span class="contact-hours-time">7:00 AM - 9:00 PM</span>
+              </div>
+              <div class="contact-hours-row">
+                <span class="contact-hours-day">Sunday</span>
+                <span class="contact-hours-time">8:00 AM - 6:00 PM</span>
+              </div>
+            </div>
+          </div>
+
+          <form id="con-form" class="order-form fade-up" autocomplete="off" onsubmit="validate(event)">
+            <div class="form-row">
+
+              <div class="form-group">
+                <label for="first_name">First Name</label>
+                <input type="text" name="first_name" id="first_name" placeholder="Enter your first name..." />
+                <p id="first_name-err"></p>
+              </div>
+
+              <div class="form-group">
+                <label for="last_name">Last Name</label>
+                <input type="text" name="last_name" id="last_name" placeholder="Enter your last name..." />
+                <p id="last_name-err"></p>
+              </div>
+            </div>
+
+            <div class="honeypot-field" aria-hidden="true">
+              <label for="website">Website</label>
+              <input type="text" id="website" name="website" autocomplete="off" />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" placeholder="Enter your email..." />
+              <p id="email-err"></p>
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" name="subject" id="subject" placeholder="Enter your subject..." />
+              <p id="subject-err"></p>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea name="message" id="message" placeholder="Enter your message..." rows="7"></textarea>
+            </div>
+
+            <input type="submit" value="Submit" />
+          </form>
+        </div>
+
+        <div class="contact-map-wrapper">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3721.127791224259!2d72.75733507597197!3d21.147312083694786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04d8d96d2b733%3A0x1a5232e28e4094e4!2sEnactOn%20Technologies%20Private%20Limited!5e0!3m2!1sen!2sin!4v1779338105801!5m2!1sen!2sin"
+            width="600" height="450" style="border: 0; border-radius: 15px" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade" class="contact-map"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="footer-brand">
+      <a href="#Home">
+        <img src="./assets/logo.png" height="150" alt="logo">
+      </a>
+      <p>
+        We craft every cup with precision, roasting premium beans to deliver
+        unforgettable coffee experiences every day.
+      </p>
+    </div>
+    <div class="footer-links">
+      <h3>Quick Links</h3>
+      <a href="#home">Home</a>
+      <a href="#menu">Menu</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#testimonial">Testimonial</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="footer-contact">
+      <h3>Contact</h3>
+      <p>Surat, Gujarat</p>
+      <p>+91 98765 43210</p>
+      <p>hello@brewhaven.com</p>
+    </div>
+    <div class="footer-social">
+      <h3>Follow Us</h3>
+      <div class="social-icons">
+        <a href="#"><img src="./assets/instagram.png" height="24" width="24" alt="">Instagram</a>
+        <a href="#"><img src="./assets/facebook.png" height="24" width="24" alt="">Facebook</a>
+        <a href="#"><img src="./assets/twitter.png" height="24" width="24" alt="">X / Twitter</a>
+        <a href="#"><img src="./assets/linkedin.png" height="24" width="24" alt="">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <div class="copyright">
+    © 2026 Coffee Corner. All rights reserved.
+  </div>
+
+  <script src="./scripts/script.js"></script>
+</body>
+
+</html>
