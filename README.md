@@ -12,6 +12,9 @@ A responsive local business website built to practice frontend development funda
 **Tech Stack:**  
 HTML · CSS · JavaScript
 
+**Live Demo:**  
+https://brew-haven-cafe-eta.vercel.app
+
 ---
 
 ### 02. [Mental Wellness Journal](https://github.com/enacton-interns/Mann-enacton/tree/week-2-mental-wellness)
@@ -34,6 +37,9 @@ A Pokémon application built to explore modern frontend data fetching and server
 
 **Tech Stack:**  
 React · TypeScript · TanStack Query · REST API
+
+**Live Demo:**  
+https://tans-stack-pokemon.vercel.app/
 
 ---
 
@@ -85,6 +91,9 @@ A role-based inventory management application for managing products, stock, and 
 **Tech Stack:**  
 Next.js · TypeScript · PostgreSQL · Neon · Drizzle ORM · Tailwind CSS
 
+**Live Demo:**  
+https://inventory-management-system-five-roan.vercel.app/
+
 ---
 
 ### 09. [Content Repurpose AI](https://github.com/enacton-interns/Mann-enacton/tree/week-10-content-repurpose-ai)
@@ -104,6 +113,9 @@ An extended version of the home service management platform with a more complete
 
 **Tech Stack:**  
 Next.js · TypeScript · PostgreSQL · Neon · Drizzle ORM · Better Auth · Tailwind CSS · Razorpay
+
+**Live Demo:**  
+https://home-service-management-main.vercel.app
 
 ---
 
